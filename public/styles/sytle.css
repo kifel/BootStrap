@@ -1,0 +1,255 @@
+/*=== GERAL ===*/
+* {
+  font-family: montserrat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Making the html and body 100% of the viewport. */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  overflow: overlay;
+
+  background-color: white;
+}
+
+/*=== Header ===*/
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar .nav-link {
+  font-size: 1.6rem;
+}
+
+.navbar .nav-item .ativo {
+  color: #000;
+  font-weight: 500;
+}
+
+/*=== Home ===*/
+
+.home {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+.home .home-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.home .home-text .start-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.home .col-b {
+  margin-top: 2rem;
+}
+
+.home .more-a {
+  margin-top: 4.5rem;
+}
+
+.home .card {
+    margin-top: 1rem;
+    box-shadow: 1.5rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    height: 100%;
+  }
+
+
+.home .card .card-title {
+  font-size: 1.6rem;
+}
+
+.home .card .card-text {
+  font-size: 1.2rem;
+}
+
+/*=== About ===*/
+
+.about .row {
+  margin-top: 2rem;
+}
+
+.about .about-text {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.about .about-text .start-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/*=== Team ===*/
+
+.team .card-body i {
+  font-size: 2rem;
+}
+
+.team .card {
+  margin-top: 1rem;
+  box-shadow: 1.5rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  height: 100%;
+}
+.team .card-text {
+  font-size: 1rem;
+}
+
+.team .socials i {
+  color: #000;
+}
+/*=== Contact Us ===*/
+
+.form-contact {
+  background-color: #f8f9fa;
+  box-shadow: 1.5rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+/*=== Footer ===*/
+
+footer p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/*=== DarkMode ===*/
+
+.darkmode {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.bi-moon-fill {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dark .bi-moon-fill {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.bi-brightness-high-fill {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dark .bi-brightness-high-fill {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dark {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+}
+
+.dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgb%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.dark .darkmode {
+  color: #ffff;
+}
+
+.dark .darkm {
+  background-color: #212529;
+}
+
+.dark .darkm a {
+  color: white;
+}
+
+.dark .navbar .nav-item .ativo {
+  color: green;
+}
+
+.dark .form-contact {
+  background-color: #222425;
+  box-shadow: 1.5rem 1.5rem 4rem rgba(255, 255, 255, 0.1);
+}
+
+.dark .card {
+  background-color: rgb(39, 39, 39);
+}
+
+.dark .socials i {
+  color: #fff;
+}
+
+/*=== Voltar para o topo ===*/
+
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
+
+  filter: brightness(1.1);
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/*=== Responsive ===*/
+
+@media (min-width: 992px) {
+  .home .home-text .start-btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  .about .about-text .start-btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  .about .about-text {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home .home-text .start-btn {
+    margin-top: 2rem;
+  }
+
+  .home .col-b {
+    margin-top: 0;
+  }
+
+  .about .about-text .start-btn {
+    margin-top: 2rem;
+  }
+}
