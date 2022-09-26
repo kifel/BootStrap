@@ -85,6 +85,18 @@ body {
   height: 12rem;
 }
 
+.home .card-2 {
+  margin-top: 1rem;
+}
+
+.home .card-3 {
+  margin-top: 1rem;
+}
+
+.home .card-4 {
+  margin-top: 1rem;
+}
+
 .home .card .card-text {
   font-size: 1.2rem;
 }
@@ -124,6 +136,18 @@ body {
 
 .team .socials i {
   color: #000;
+}
+
+.team .card-2 {
+  margin-top: 1rem;
+}
+
+.team .card-3 {
+  margin-top: 1rem;
+}
+
+.team .card-4 {
+  margin-top: 1rem;
 }
 /*=== Contact Us ===*/
 
@@ -227,6 +251,15 @@ footer p {
 }
 
 /*=== Responsive ===*/
+
+@media (min-width: 768px) {
+  .team .card-2 {
+    margin-top: 0;
+  }
+  .home .card-2 {
+    margin-top: 0;
+  }
+}
 
 @media (min-width: 992px) {
   .home .home-text .start-btn {
