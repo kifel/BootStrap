@@ -233,7 +233,7 @@ footer p {
 #backToTopButton {
   position: fixed;
   bottom: 1rem;
-  right: 2.5rem;
+  right: 2rem;
 
   opacity: 0;
   visibility: hidden;
@@ -252,19 +252,30 @@ footer p {
 
 /*=== Responsive ===*/
 
-@media (min-width: 768px) {
-  .team .card-2 {
-    margin-top: 0;
-  }
-  .home .card-2 {
-    margin-top: 0;
-  }
-}
-
 @media (min-width: 992px) {
   .home .home-text .start-btn {
     display: inline-block;
     margin-top: 0.5rem;
+  }
+  .team .card-2 {
+    margin-top: 0rem;
+  }
+  .home .card-2 {
+    margin-top: 0rem;
+  }
+
+  .team .card-3 {
+    margin-top: 0rem;
+  }
+  .home .card-3 {
+    margin-top: 0rem;
+  }
+
+  .team .card-4 {
+    margin-top: 0rem;
+  }
+  .home .card-4 {
+    margin-top: 0rem;
   }
 
   .about .about-text .start-btn {
@@ -287,5 +298,25 @@ footer p {
 
   .about .about-text .start-btn {
     margin-top: 2rem;
+  }
+  .team .card-2 {
+    margin-top: 0rem;
+  }
+  .home .card-2 {
+    margin-top: 0rem;
+  }
+
+  .team .card-3 {
+    margin-top: 0rem;
+  }
+  .home .card-3 {
+    margin-top: 0rem;
+  }
+
+  .team .card-4 {
+    margin-top: 0rem;
+  }
+  .home .card-4 {
+    margin-top: 0rem;
   }
 }
