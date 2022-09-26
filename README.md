@@ -1,5 +1,5 @@
 # BootStrap
-Site com BootStrap
+Site com BootStrap, totalmente responsivo e com dark theme
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=PROJETO%20FINALIZADO&color=GREEN&style=for-the-badge)
 
